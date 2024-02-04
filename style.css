@@ -1,0 +1,101 @@
+* {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+body{
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+#login-form {
+    margin-top: 8%;
+    text-align: center;
+    }
+ 
+#login-form input {
+    color:white;
+    width: 10%;
+    font-size: 100%;
+    text-align: center;
+    background-color: rgba(255,255,255,0.3);
+    border: none;
+    
+}
+
+#login-form button {
+
+    background-color: rgba(255,255,255,0.7);
+    
+    border: none;
+    margin-left: 0.5%;
+    margin-bottom: 0.5%;
+    border-radius: 10%;
+
+    display: inline-block;
+}
+
+#clock {
+    text-align: center;
+    font-size: 5em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: azure;
+    opacity: 0.7;
+}
+
+#greeting
+{
+    font-size: 5em;
+    text-align: center;
+    color:aliceblue;
+}
+
+#todo-form{
+    margin-top: 5%;
+    text-align: center;
+}
+
+#todo-form input{
+    height: 25px;
+    width: 20%;
+    font-size: 100%;
+
+    text-align: center;   
+}
+
+li {
+    margin-top: 1%;
+    margin-right: 1%;
+    display: inline-block;
+}
+
+li button {
+    margin-left: 1%;
+}
+
+#todo-list {
+    text-align: center;
+    color: white;
+}
+
+#quote{
+    font-size: 1.5em;
+    margin-top: 10%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#weather{
+    margin-top: 2%;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#weather span{
+    margin-left: 0.1%;
+}
