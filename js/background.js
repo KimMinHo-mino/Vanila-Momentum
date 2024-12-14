@@ -1,7 +1,9 @@
+const basePath = window.location.pathname.split("/")[1] ? `/${window.location.pathname.split("/")[1]}` : "";
+
 const images = [
-  "../img/0.jpg",
-  "../img/1.jpg",
-  "../img/2.jpg"
+  `${basePath}/img/0.jpg`,
+  `${basePath}/img/1.jpg`,
+  `${basePath}/img/2.jpg`
 ];
 const imagesLength = images.length;
 
