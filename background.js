@@ -1,4 +1,6 @@
 const images = ["0.jpg","1.jpg","2.jpg"];
+const basePath = window.location.pathname.split("/")[1] ? `/${window.location.pathname.split("/")[1]}` : "";
+
 const imagesLength = images.length;
 
 const chosenImage = images[Math.floor(Math.random() * imagesLength)];
